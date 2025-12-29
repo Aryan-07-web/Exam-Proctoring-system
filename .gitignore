@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model files (uncomment if you want to exclude them - users will need to add their own)
+# *.keras
+# *.h5
+# *.pkl
+# *.pt
+# *.pth
+
+# Data directories (exclude training data)
+aug_data/
+data/
+logs/
+
+# Runtime generated
+violation_screenshots/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
