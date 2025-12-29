@@ -115,37 +115,6 @@ The application will open in your default web browser at `http://localhost:8501`
 - ✅ `README.md` - Documentation
 - ✅ `.gitignore` - Git ignore rules
 
-### Model Files (IMPORTANT):
-- ⚠️ `facetracker_model_new.keras` - **Large file, consider using Git LFS or hosting separately**
-- ⚠️ `lbfmodel.yaml` - **Large file (~54MB), consider using Git LFS or hosting separately**
-
-### Optional Files:
-- `face_test.py` - Testing script (if you want to share)
-- `.streamlit/config.toml` - Streamlit configuration (if you have custom settings)
-
-### Files to Exclude (already in .gitignore):
-- ❌ `__pycache__/` - Python cache
-- ❌ `logs/` - Training logs
-- ❌ `violation_screenshots/` - Runtime screenshots
-- ❌ `aug_data/` - Training data
-- ❌ `data/` - Training data
-- ❌ `*.ipynb` - Jupyter notebooks (unless you want to share them)
-
-## 💡 Notes for Large Files
-
-If your model files are too large for GitHub (>100MB), consider:
-
-1. **Git LFS (Large File Storage)**:
-   ```bash
-   git lfs install
-   git lfs track "*.keras"
-   git lfs track "*.yaml"
-   git add .gitattributes
-   ```
-
-2. **Alternative Hosting**: Upload models to Google Drive, Dropbox, or similar and share download links in README
-
-3. **Cloud Storage**: Use AWS S3, Google Cloud Storage, etc., and provide download instructions
 
 ## 🐛 Troubleshooting
 
@@ -168,17 +137,14 @@ If your model files are too large for GitHub (>100MB), consider:
 - Reduce video resolution if needed
 - Ensure adequate lighting for better detection
 
-## 📝 License
-
-[Specify your license here]
 
 ## 👤 Author
 
-[Your Name]
+Aryan Rishi
 
-## 🙏 Acknowledgments
 
 - OpenCV community for computer vision tools
 - TensorFlow team for ML framework
 - Streamlit for web interface framework
+
 
